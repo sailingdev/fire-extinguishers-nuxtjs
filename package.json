@@ -1,10 +1,10 @@
 {
-  "name": "client",
+  "name": "fire-extinguishers-nuxtjs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build && nuxt generate",
+    "build": "nuxt generate --output dist",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",

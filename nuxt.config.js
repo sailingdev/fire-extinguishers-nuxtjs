@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'client',
+    title: 'fire-extinguishers-nuxtjs',
     htmlAttrs: {
       lang: 'en'
     },
@@ -50,7 +50,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-
-  buildDir: 'dist'
+  }
 }
