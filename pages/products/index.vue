@@ -1,5 +1,8 @@
+<!--
+eslint-disable vue/attribute-hyphenation
+-->
 <template>
-  <div class="container">
+  <div class="products-container">
     <CardsDisplay
       v-for="cardInfo in largeCardSections.slice(0, 1)"
       :key="cardInfo.id"
@@ -26,5 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.products-container {
+  margin: auto;
+}
 </style>
